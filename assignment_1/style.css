@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: whitesmoke;
+}
+
+nav{
+    background: #CE0505;   
+    display: flex;
+    justify-content: space-between;  
+    height: 70px;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.logo{
+    color:#EB2929;
+    background-color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+.navtag ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navtag ul li{
+    margin: 0 20px;
+    list-style-type: none;
+    
+    
+}
+#createAccountbtn{
+    height: 40px;
+    padding: 0 15px;
+    background: #CE0505;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.heading{
+    color: #192F60;
+    margin: 20px 2px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container{
+    margin:0px 130px 40px 130px;    
+}
+
+.main{
+    display: flex;
+}
+
+.location>select{
+    border: 1px solid #00000029;
+    color: #8C96AB;
+}
+.location>select:focus{
+    border: 1px solid #8C96AB;
+}
+
+
+.filters{
+    width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-right: 20px;
+    padding:  20px 25px;
+    background: white;
+}
+.filter>div{
+    margin-bottom:10px;
+}
+
+.filters>h3{
+    color: #192F60;
+    font-size: 15px;
+}
+.filter-head{
+    color: #1f3972;
+    font-size: 12px;
+    font-weight: 500;
+    margin:12px 0 8px 0;
+}
+.cuisine>div>label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+ 
+}
+.costForTwo>div{
+    margin-bottom: 6px;
+}
+.costForTwo>div>label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #8C96AB;
+    margin-left: 5px;
+}
+.sort>p{
+    color: #192F60;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.sort>div>label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #8C96AB;
+    margin-left: 5px;
+}
+
+.items-container{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 0px 0px 30px 30px;
+    width: 830px;
+   
+}
+.item-head{
+    color: #192F60;
+    padding: 0;
+    margin: 0;
+}
+.item-place{
+    color: #192F60;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.item-addr{
+    color:  #636F88;
+    font-size: 14px;
+}
+.div1, .div2{
+    display: flex;
+    background-color: white;
+
+}
+.div1 > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.item-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div2 > div{
+    margin: 20px 40px;
+}
+.div2 > div>p{
+    color: #636F88;
+    font-weight: 10px;
+}
+hr{
+    width: 90%;
+    margin: 0 5% ;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.cuisine{
+color: #636F88;
+font-weight: 10px; 
+}
+  
+.bake{
+    color: #192F60;
+    font-size: 14px;
+}
+.rupee{
+    color: #192F60;
+    font-size: 14px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pagination>div{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #8C96AB;
+    color: #8C96AB;
+    border-radius: 6px;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination>div:nth-child(2){
+    background-color: #8C96AB;
+    color: white;
+}
+.pagination>div:nth-child(1){
+   font-size: 26px;
+}
+.pagination>div:nth-child(7){
+    font-size: 26px;
+}
+.pagination>div:hover{
+    background-color: #8C96AB;
+    color: white;
+}
+
+
+ /* page 2 containet */
+ .main-two{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+ }
+.page2-container{
+    width: 70%;
+    margin-top: 50px;
+    height: 400px;
+    position: relative;
+}
+
+ .image-container img{
+     width: 100%;
+     height: 100%; 
+     position: absolute;
+     object-fit: cover;
+     
+ }
+ .image-container p{
+    width: 220px;
+    height: 40px;
+    color: #192F60;
+    font-weight: 600;
+    background-color: white;
+    opacity: 0.8;
+    object-fit: cover;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-container>p>a{
+    color: #192F60;
+}
+.Big-container{
+    width: 70%;
+    margin-top: 40px;
+    height: 60px;
+}
+.Big-container>h2{
+    color: #192F60;
+}
+ .last-container>button{
+    position:absolute;
+    top: -20px;
+    right: 0;
+    background: #CE0505;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.last-container{
+    width: 70%;
+    position: relative;
+    height: 90px;
+}
+
+.place-tags{
+    display: flex;
+    border-bottom: 1px solid rgb(177, 168, 168);
+}
+.place-tags>div{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-size: 15px;
+    color: #192F60;
+    font-weight: 600;
+}
+.place-tags>div:nth-child(1){
+    border-bottom: 3px solid red;
+}
+
+.details>h5{
+    margin: 40px 0;
+    font-size: 17px;
+    color: #192F60;
+}
+.details>div{
+    margin-bottom : 20px;
+}
+
+.details>div>p:nth-child(1){
+    color: #192F60;
+    font-size: 15px;   
+    font-weight: 600; 
+}
+.details>div>p:nth-child(2){
+    color: #192F60;
+    font-size: 12px;    
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.space{
+    height: 30px;
+}
