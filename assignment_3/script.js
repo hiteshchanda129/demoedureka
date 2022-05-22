@@ -34,12 +34,13 @@ let restaurant3 = new Restaurant("Punjabi Tadka", "delhi", "delhi");
 let Manager = new RestaurantManager('hitesh');
 
 let restaurantList = [restaurant1, restaurant2, restaurant3];
-
+console.log(restaurantList
+)
 
 Manager.printAllRestaurantNames(restaurantList);    // print all restraunt name
 
 
-Manager.filterRestaurantByCity(restaurantList, 'raipur');  // filter city
+Manager.filterRestaurantByCity(restaurantList, 'delhi');  // filter city
 
 
 
@@ -86,3 +87,13 @@ for (let data in orderData) {
 }
 
 console.log(restaurantData);    // r Details for Punjabi Tadka restaurant 
+
+
+let arr = [1, 2, 3, 4, 5];
+
+function f1(total, currval) {
+    return currval + total;
+}
+
+let val = arr.reduce(f1)
+console.log(val);
